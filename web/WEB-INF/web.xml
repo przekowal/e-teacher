@@ -13,4 +13,22 @@
         <url-pattern>/hiddenservlets/helloWorld.do</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>start</servlet-name>
+        <servlet-class>StartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>start</servlet-name>
+        <url-pattern>/hiddenservlets/start.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>result</servlet-name>
+        <servlet-class>ResultServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>result</servlet-name>
+        <url-pattern>/hiddenservlet/results.do</url-pattern>
+    </servlet-mapping>
+
 </web-app>
